@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="mystyle.css">
 </head>
+
 <body>
 
-<div style="background-image: url('bL.jfif');">
+
+
+<div style="background-image: url('aee.jpg');">
 
 <h1>hellllooooo whasappp everyone its boogalooga here tuday we gunaa be dreenkeen secret amog pocion lol just kidddd its actuallee dabab pocion</h1>
 <p>pssst i lied. it was amog pocion. </p>
@@ -83,109 +87,14 @@ ats.innerHTML = parseInt(a.value) + parseInt(b.value);
 
 <img src="gooldannicht.jfif" alt="yesno" width="104" height="142">
 
+<h1>minceraeft kul</h1>
+<h2>omaigasddddd bro funi</h2>
+
+<img src="4.png" alt="" width="200" height="200">
+<img src="tom.jpg" alt="" width="200" height="200">
 
 
-
-
-
-
-
-
-<script>
-//Canvas ir javascript sąsaja
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
- 
-
-//Kintamųjų deklaracija
-var i = 0;
-var kryptis = 1;
-var greitis = 5;
-var i_vertikaliai = 0;
-var kryptis_vertikaliai = 1;
-var greitis_vertikaliai = 10;
-var raudona = 0;
-var zalia = 0;
-var melyna = 0;
-
- 
-
-
-//Kvadrato piešimo funkcijos deklaracija
-function piesk(x, y, width, height) {
-    //ctx.clearRect(0, 0, 800, 800); //Šita eilutė išvalo visą drobę.
-    melyna = melyna + 1;
-    zalia = zalia + 2;
-    raudona = raudona + 4;
-    if (melyna > 255) melyna = 0;
-    if (zalia > 255) zalia = 0;
-    if (raudona > 255) raudona = 0;
-    ctx.fillStyle = 'rgb('+raudona+','+zalia+','+melyna+')'; // Nudažys visas būsimas figūras mėlynai
-    ctx.fillRect(x, y, width, height); //Nupiešia kvadratą
-    i = i + kryptis*greitis;
-    if (i > 700) kryptis = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
-    if (i < 100) kryptis = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
-    i_vertikaliai = i_vertikaliai + kryptis_vertikaliai*greitis_vertikaliai;
-    if (i_vertikaliai > 700) kryptis_vertikaliai = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
-    if (i_vertikaliai < 100) kryptis_vertikaliai = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
-    setTimeout(piesk, 10, i, i_vertikaliai, 30, 30);
-}
-
- 
-
-piesk(i, 50, 30, 30);
-
-<canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;">
-</canvas>
-<input type="number" oninput="greitis = this.value;">
-</script>
-
-<script>
-//Canvas ir javascript sąsaja
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
- 
-
-//Kintamųjų deklaracija
-var i = 0;
-var kryptis = 1;
-var greitis = 5;
-var i_vertikaliai = 0;
-var kryptis_vertikaliai = 1;
-var greitis_vertikaliai = 10;
-var raudona = 0;
-var zalia = 0;
-var melyna = 0;
-
- 
-
-
-//Kvadrato piešimo funkcijos deklaracija
-function piesk(x, y, width, height) {
-    //ctx.clearRect(0, 0, 800, 800); //Šita eilutė išvalo visą drobę.
-    melyna = melyna + 1;
-    zalia = zalia + 2;
-    raudona = raudona + 4;
-    if (melyna > 255) melyna = 0;
-    if (zalia > 255) zalia = 0;
-    if (raudona > 255) raudona = 0;
-    ctx.fillStyle = 'rgb('+raudona+','+zalia+','+melyna+')'; // Nudažys visas būsimas figūras mėlynai
-    ctx.fillRect(x, y, width, height); //Nupiešia kvadratą
-    i = i + kryptis*greitis;
-    if (i > 700) kryptis = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
-    if (i < 100) kryptis = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
-    i_vertikaliai = i_vertikaliai + kryptis_vertikaliai*greitis_vertikaliai;
-    if (i_vertikaliai > 700) kryptis_vertikaliai = -1; //pakeičia judėjimo kryptį, kai i daugiau nei 700
-    if (i_vertikaliai < 100) kryptis_vertikaliai = 1; //pakeičia judėjimo kryptį, kai i mažiau nei 100
-    setTimeout(piesk, 10, i, i_vertikaliai, 30, 30);
-}
-
- 
-
-piesk(i, 50, 30, 30);
-</script>
-
+<img src="gres.jpg" alt="" width="200" height="200">
+<img src="meta.gif" alt="" width="400" height="400">
 </body>
 </html>
